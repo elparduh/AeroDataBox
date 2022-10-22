@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		27A237482901ECD400C8E755 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A237472901ECD400C8E755 /* AppDelegate.swift */; };
-		27A2374A2901ECD400C8E755 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A237492901ECD400C8E755 /* SceneDelegate.swift */; };
 		27A2374C2901ECD400C8E755 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A2374B2901ECD400C8E755 /* ViewController.swift */; };
-		27A2374F2901ECD400C8E755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A2374D2901ECD400C8E755 /* Main.storyboard */; };
 		27A237512901ECD600C8E755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A237502901ECD600C8E755 /* Assets.xcassets */; };
 		27A237542901ECD600C8E755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A237522901ECD600C8E755 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		27A237442901ECD400C8E755 /* AeroDataBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AeroDataBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A237472901ECD400C8E755 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27A237492901ECD400C8E755 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		27A2374B2901ECD400C8E755 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		27A2374E2901ECD400C8E755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27A237502901ECD600C8E755 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27A237532901ECD600C8E755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27A237552901ECD600C8E755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,9 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				27A237472901ECD400C8E755 /* AppDelegate.swift */,
-				27A237492901ECD400C8E755 /* SceneDelegate.swift */,
 				27A2374B2901ECD400C8E755 /* ViewController.swift */,
-				27A2374D2901ECD400C8E755 /* Main.storyboard */,
 				27A237502901ECD600C8E755 /* Assets.xcassets */,
 				27A237522901ECD600C8E755 /* LaunchScreen.storyboard */,
 				27A237552901ECD600C8E755 /* Info.plist */,
@@ -127,7 +121,6 @@
 			files = (
 				27A237542901ECD600C8E755 /* LaunchScreen.storyboard in Resources */,
 				27A237512901ECD600C8E755 /* Assets.xcassets in Resources */,
-				27A2374F2901ECD400C8E755 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,21 +133,12 @@
 			files = (
 				27A2374C2901ECD400C8E755 /* ViewController.swift in Sources */,
 				27A237482901ECD400C8E755 /* AppDelegate.swift in Sources */,
-				27A2374A2901ECD400C8E755 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		27A2374D2901ECD400C8E755 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				27A2374E2901ECD400C8E755 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		27A237522901ECD600C8E755 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +275,7 @@
 				INFOPLIST_FILE = AeroDataBox/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +302,7 @@
 				INFOPLIST_FILE = AeroDataBox/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
